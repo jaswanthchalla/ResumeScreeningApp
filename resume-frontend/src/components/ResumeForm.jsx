@@ -33,7 +33,7 @@ function ResumeForm() {
             setIsUploading(true);
 
             const response = await axios.post(
-                'http://localhost:8000/api/screen/',
+                'https://resumescreeningapp.onrender.com/api/screen/',
                 formData
             );
 
